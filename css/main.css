@@ -1,23 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
-    background-image: url(/assets/img/top-bg.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
     font-family: 'Gentium Book Plus', serif;
 }
 h2 {
-    margin-top: 100px;
-    color: aliceblue;
+    text-align: center;
     font-size: 75px;
 }
-.top-section {
-    text-align: center;
-    margin: 50px;
+#top-title {
+    margin-top: 75px;
+    color: aliceblue;
 }
-#intro-paragraph {
+#input {
+    text-align: center;
+}
+.top-section {
+    background-image: url(/assets/img/top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+.paragraph {
     color: rgb(0, 2, 3);
     font-size: 20px;
-    margin-bottom: 75px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-shadow: 0px 0px 10px rgb(243, 239, 243);
+}
+
+.donation-section {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 .buttons {
@@ -27,7 +46,36 @@ h2 {
     margin: 50px;
 }
 .donate-button {
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 20px;
     border-radius: 7px;
+}
+.donation-amount {
+    display: flex;
+    justify-content: center;
+}
+.donation-child {
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(224, 49, 49);
+    box-shadow: 0px 0px 10px black;
+    float: left;
+    padding: 30px 20px;
+    margin: 10px;
+    border: 2px solid rgb(245, 53, 53);
+    border-radius: 5px;
+}
+#donation-child-2{
+    background-color: rgb(240, 164, 164);
+}
+
+#input {
+    font-size: 20px;
+    margin-bottom: 50px;
+    display: block;
+    box-sizing: border-box;
+    margin: 50px  auto;
+    padding: 10px 300px;
+    border: none;
+    border-bottom: 2px solid rgba(175, 169, 169, 0.486);
 }
