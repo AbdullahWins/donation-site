@@ -1,0 +1,33 @@
+body {
+    background-image: url(/assets/img/top-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Gentium Book Plus', serif;
+}
+h2 {
+    margin-top: 100px;
+    color: aliceblue;
+    font-size: 75px;
+}
+.top-section {
+    text-align: center;
+    margin: 50px;
+}
+#intro-paragraph {
+    color: rgb(0, 2, 3);
+    font-size: 20px;
+    margin-bottom: 75px;
+    text-shadow: 0px 0px 10px rgb(243, 239, 243);
+}
+
+.buttons {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    margin: 50px;
+}
+.donate-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
