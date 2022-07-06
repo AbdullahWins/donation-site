@@ -16,7 +16,8 @@ h3 {
 }
 #top-title {
     margin-top: 75px;
-    color: aliceblue;
+    color: rgb(214, 234, 251);
+    text-shadow: 1px 0px 5px black;
 }
 #input {
     text-align: center;
