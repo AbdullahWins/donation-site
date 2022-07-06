@@ -119,3 +119,53 @@ h3 {
     margin: 5px;
     margin-top: 25px;
 }
+.about-us {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background-color: rgba(224, 239, 239, 0.756);
+}
+.works-parent {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.img {
+    box-shadow: 2px 2px 40px rgb(128, 108, 244);;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#recent-works {
+    text-align: center;
+    color: rgb(20, 32, 28);
+}
+.form {
+    text-align: center;
+}
+.mail {
+    display: flex;
+    justify-content: center;
+    margin: 50px 250px;
+    padding: 100px 10px;
+    border-radius: 10px;
+    background-color: rgb(236, 220, 251);
+}
+.email {
+    font-size: 20px;
+    margin-right: 0%;
+    padding: 10px 25px;
+    border-radius: 10px 0px 0px 10px;
+}
+.subscribe-button {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-left: 0;
+    color: aliceblue;
+    background-color: blueviolet;
+    border-radius: 0px 10px 10px 0px;
+}
